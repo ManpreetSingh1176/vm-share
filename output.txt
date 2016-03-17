@@ -1,0 +1,81 @@
+uuid ( RO)                          : 782eefc9-34b1-b656-b663-e82780d4cd56
+                    name-label ( RW): Test
+              name-description ( RW): Created by XenCenter Disk Image Import
+                  user-version ( RW): 1
+                 is-a-template ( RW): false
+                 is-a-snapshot ( RO): false
+                   snapshot-of ( RO): <not in database>
+                     snapshots ( RO): 
+                 snapshot-time ( RO): 19700101T00:00:00Z
+                 snapshot-info ( RO): 
+                        parent ( RO): <not in database>
+                      children ( RO): 
+             is-control-domain ( RO): false
+                   power-state ( RO): halted
+                 memory-actual ( RO): 268427264
+                 memory-target ( RO): 0
+               memory-overhead ( RO): 5242880
+             memory-static-max ( RW): 268435456
+            memory-dynamic-max ( RW): 268435456
+            memory-dynamic-min ( RW): 268435456
+             memory-static-min ( RW): 16777216
+              suspend-VDI-uuid ( RW): <not in database>
+               suspend-SR-uuid ( RW): <not in database>
+                  VCPUs-params (MRW): 
+                     VCPUs-max ( RW): 1
+              VCPUs-at-startup ( RW): 1
+        actions-after-shutdown ( RW): Destroy
+          actions-after-reboot ( RW): Restart
+           actions-after-crash ( RW): Restart
+                 console-uuids (SRO): 
+                      platform (MRW): timeoffset: 0; pae: true; stdvga: 0; acpi: true; apic: true; nx: true
+            allowed-operations (SRO): changing_dynamic_range; changing_shadow_memory; changing_static_range; make_into_template; destroy; export; start_on; start; clone; copy; snapshot
+            current-operations (SRO): 
+            blocked-operations (MRW): 
+           allowed-VBD-devices (SRO): 1; 2; 3
+           allowed-VIF-devices (SRO): 1; 2; 3
+                possible-hosts ( RO): e0bdfeef-668f-4bab-8226-3497a8caede3
+               HVM-boot-policy ( RW): BIOS order
+               HVM-boot-params (MRW): order: dc
+         HVM-shadow-multiplier ( RW): 1.000
+                     PV-kernel ( RW): 
+                    PV-ramdisk ( RW): 
+                       PV-args ( RW): 
+                PV-legacy-args ( RW): 
+                 PV-bootloader ( RW): 
+            PV-bootloader-args ( RW): 
+           last-boot-CPU-flags ( RO): vendor: GenuineIntel; features: f7fa322b-0fabfbff-00000121-2c100800
+              last-boot-record ( RO): '('struct' ('uuid' '782eefc9-34b1-b656-b663-e82780d4cd56') ('allowed_operations' ('array')) ('current_operations' ('struct' ('OpaqueRef:de5e6198-3d29-c3de-b5e3-cb9a5a5f4ed5' 'start'))) ('power_state' 'Halted') ('name_label' 'Test') ('name_description' 'Created by XenCenter Disk Image Import') ('user_version' '1') ('is_a_template' ('boolean' '0')) ('suspend_VDI' 'OpaqueRef:NULL') ('resident_on' 'OpaqueRef:NULL') ('affinity' '') ('memory_overhead' '5242880') ('memory_target' '0') ('memory_static_max' '268435456') ('memory_dynamic_max' '268435456') ('memory_dynamic_min' '268435456') ('memory_static_min' '16777216') ('VCPUs_params' ('struct')) ('VCPUs_max' '1') ('VCPUs_at_startup' '1') ('actions_after_shutdown' 'destroy') ('actions_after_reboot' 'restart') ('actions_after_crash' 'restart') ('consoles' ('array')) ('VIFs' ('array' 'OpaqueRef:b00bb260-6279-a3b7-1808-e6207fe55b8c')) ('VBDs' ('array' 'OpaqueRef:2a5a4e97-f8e8-e099-6e88-c35186bd6a10')) ('crash_dumps' ('array')) ('VTPMs' ('array')) ('PV_bootloader' '') ('PV_kernel' '') ('PV_ramdisk' '') ('PV_args' '') ('PV_bootloader_args' '') ('PV_legacy_args' '') ('HVM_boot_policy' 'BIOS order') ('HVM_boot_params' ('struct' ('order' 'dc'))) ('HVM_shadow_multiplier' ('double' '1')) ('platform' ('struct' ('timeoffset' '0') ('pae' 'true') ('stdvga' '0') ('acpi' 'true') ('apic' 'true') ('nx' 'true'))) ('PCI_bus' '') ('other_config' ('struct' ('vgpu_pci' '') ('mac_seed' 'ed51f972-881c-9282-7edc-8a0ccbb18d9c'))) ('domid' '-1') ('domarch' '') ('last_boot_CPU_flags' ('struct' ('vendor' 'GenuineIntel') ('features' 'f7fa322b-0fabfbff-00000121-2c100800'))) ('is_control_domain' ('boolean' '0')) ('metrics' 'OpaqueRef:8281eb5c-b8e8-d200-2072-5b61dcfc3228') ('guest_metrics' 'OpaqueRef:NULL') ('last_booted_record' '') ('recommendations' '') ('xenstore_data' ('struct' ('vm-data' ''))) ('ha_always_run' ('boolean' '0')) ('ha_restart_priority' '') ('is_a_snapshot' ('boolean' '0')) ('snapshot_of' 'OpaqueRef:NULL') ('snapshots' ('array')) ('snapshot_time' ('dateTime.iso8601' '19700101T00:00:00Z')) ('transportable_snapshot_id' '') ('blobs' ('struct')) ('tags' ('array')) ('blocked_operations' ('struct')) ('snapshot_info' ('struct')) ('snapshot_metadata' '') ('parent' 'OpaqueRef:NULL') ('children' ('array')) ('bios_strings' ('struct')) ('protection_policy' 'OpaqueRef:NULL') ('is_snapshot_from_vmpp' ('boolean' '0')) ('appliance' '') ('start_delay' '0') ('shutdown_delay' '0') ('order' '0') ('VGPUs' ('array')) ('attached_PCIs' ('array')) ('suspend_SR' '') ('version' '0') ('generation_id' ''))'
+                   resident-on ( RO): <not in database>
+                      affinity ( RW): <not in database>
+                  other-config (MRW): vgpu_pci: ; mac_seed: ed51f972-881c-9282-7edc-8a0ccbb18d9c
+                        dom-id ( RO): -1
+               recommendations ( RO): 
+                 xenstore-data (MRW): vm-data: 
+    ha-always-run ( RW) [DEPRECATED]: false
+           ha-restart-priority ( RW): 
+                         blobs ( RO): 
+                    start-time ( RO): 19700101T00:00:00Z
+                  install-time ( RO): 19700101T00:00:00Z
+                  VCPUs-number ( RO): 0
+             VCPUs-utilisation (MRO): 
+                    os-version (MRO): <not in database>
+            PV-drivers-version (MRO): <not in database>
+         PV-drivers-up-to-date ( RO): <not in database>
+                        memory (MRO): <not in database>
+                         disks (MRO): <not in database>
+                      networks (MRO): <not in database>
+                         other (MRO): <not in database>
+                          live ( RO): <not in database>
+    guest-metrics-last-updated ( RO): <not in database>
+      cooperative ( RO) [DEPRECATED]: true
+                          tags (SRW): 
+                     appliance ( RW): <not in database>
+                   start-delay ( RW): 0
+                shutdown-delay ( RW): 0
+                         order ( RW): 0
+                       version ( RO): 0
+                 generation-id ( RO): 
+
+
+*n*n*n*n
